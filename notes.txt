@@ -1,0 +1,51 @@
+Step 1 : Styling the Nav
+Apply flexbox properties to recreate the nav bar layout shown in the example above.
+
+Here are some hints to guide you:
+
+Convert the <nav>, <div id="destinations">, and <div id="actions"> elements into flex containers. Keep in mind that this makes <div id="destinations"> and <div id="actions"> both flex children (inside <nav>) and flex parents to their own child elements.
+Research a method to create spacing between the elements inside <div id="destinations"> and <div id="actions">.
+Vertically centering destinations and actions within the nav bar may pose a challenge. Break down the problem into smaller steps and tackle them one by one.
+🧠 Look familiar? This is a widely used design pattern in websites, and it feels intuitive for a reason. Pay attention to common design patterns, and apply this knowledge to enhance user experiences in your own projects.
+
+Hero
+Next, let’s examine the components of our hero section:
+
+Hero breakdown
+
+Step 2 : Center items in the hero
+Apply flexbox properties to recreate the hero layout shown in the example above.
+Similar to what you did for the nav bar, you’ll need to nest one flexbox inside another to achieve the desired result.
+❓ What’s different about how the Hero section positions its children compared to the nav?
+
+Sub Nav
+Now for the sub-nav:
+
+Sub-nav breakdown
+
+Step 3 : Dividing the sub nav
+Use flexbox to position content on opposite sides of the sub nav.
+Main Content
+Time for the main event! Everything has led up to this, and it’s time to style the cards for the main content!
+
+Main breakdown
+
+The main section is a scrolling list of cards, each with an image and a footer providing details about the piece of content.
+
+Card breakdown
+
+Step 4 : Create card layout
+Apply flexbox properties to recreate the card layout shown in the example above.
+
+Here are some hints to guide you:
+
+Make the <main> element a flex container that arranges its children in a row. When the children don’t fit on one row, they should wrap to the next row.
+Ensure that the cards are vertically centered within the <main> element.
+Transform the <div class="card-footer"> element into a flex container that arranges its children in a row. Position its two children at the edges of the container.
+Create spacing between the <article class="card"> elements, which are children of the <main> element.
+Check your work
+With your site complete, your finished product should look something like this:
+
+Finished app
+
+🎉 Congrats, you did it!
